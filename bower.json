@@ -1,0 +1,29 @@
+{
+  "name": "puredom-view",
+  "main": "puredom-view.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/developit/puredom-view",
+  "authors": [
+    "Jason Miller <jason@developit.ca>"
+  ],
+  "description": "A simple view-presenter base class/mixin for puredom. Works with puredom-router and puredom-viewmanager",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "puredom",
+    "view",
+    "presenter",
+    "mvc"
+  ],
+  "license": "BSD 3-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
