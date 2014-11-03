@@ -1,4 +1,4 @@
-puredom-view [![Version](https://img.shields.io/npm/v/puredom-view.svg?style=flat)](https://www.npmjs.org/package/puredom-view)
+puredom-view [![NPM Version](https://img.shields.io/npm/v/puredom-view.svg?style=flat)](https://www.npmjs.org/package/puredom-view) [![Bower Version](https://img.shields.io/bower/v/puredom-view.svg?style=flat)](http://bower.io/search/?q=puredom-view)
 ============
 
 A simple view-presenter base class/mixin for puredom.
