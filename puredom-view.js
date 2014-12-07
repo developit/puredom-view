@@ -15,6 +15,8 @@ define(['puredom'], function($) {
 			return new View(options);
 		}
 
+		$.EventEmitter.call(this);
+
 		this.data = {};
 		this.events = {};
 		for (var i in options) {
