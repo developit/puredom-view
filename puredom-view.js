@@ -113,10 +113,10 @@ define(['puredom'], function($) {
 		 *	@param {Any} [args ..]		Arguments to pass to the method
 		 *	@private
 		 */
-		_invoke : function(method, args) {
+		_invoke : function(method) {
 			var func = this[method];
 			if (typeof func==='function') {
-				return func.apply(this, args);
+				return func.apply(this, Array.prototype.slice.call(arguments, 1));
 			}
 		}
 
