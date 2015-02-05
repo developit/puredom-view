@@ -1,4 +1,5 @@
 define(['puredom'], function($) {
+	var proto;
 
 	/**	A generic view class.
 	 *	@class
@@ -36,7 +37,7 @@ define(['puredom'], function($) {
 
 	$.inherits(View, $.EventEmitter);
 
-	$.extend(View.prototype, /** @lends View# */ {
+	$.extend(proto = View.prototype, /** @lends View# */ {
 
 		data : {},
 
@@ -91,7 +92,19 @@ define(['puredom'], function($) {
 			if (this.ui) {
 				this.ui.destroy();
 			}
+			this.render();
+		},
+
+		render : function() {
 			this.ui = this.viewManager.template(this.name, this.data, this.base);
+		},
+
+		find : function(selector) {
+			return this.base.query(selector);
+		},
+
+		findOne : function(selector) {
+			return this.find(selector).first();
 		},
 
 		_wireEvents : function(events) {
@@ -121,6 +134,9 @@ define(['puredom'], function($) {
 		}
 
 	});
+
+	proto.$ = proto.find;
+	proto.$$ = proto.findOne;
 
 	View.View = View.create = View.view = View;
 

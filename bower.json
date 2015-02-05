@@ -1,7 +1,7 @@
 {
   "name": "puredom-view",
   "main": "puredom-view.js",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "homepage": "https://github.com/developit/puredom-view",
   "authors": [
     "Jason Miller <jason@developit.ca>"

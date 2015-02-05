@@ -1,6 +1,6 @@
 {
   "name": "puredom-view",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "homepage": "https://github.com/developit/puredom-view",
   "author": "Jason Miller <jason@developit.ca>",
   "description": "A simple view-presenter base class/mixin for puredom. Works with puredom-router and puredom-viewmanager",
