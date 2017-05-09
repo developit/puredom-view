@@ -1,6 +1,8 @@
 puredom-view [![NPM Version](https://img.shields.io/npm/v/puredom-view.svg?style=flat)](https://www.npmjs.org/package/puredom-view) [![Bower Version](https://img.shields.io/bower/v/puredom-view.svg?style=flat)](http://bower.io/search/?q=puredom-view)
 ============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/developit/puredom-view.svg)](https://greenkeeper.io/)
+
 A simple view-presenter base class/mixin for puredom.
 
 Acts as a glue between [puredom](http://puredom.org)'s [RouteManager](http://puredom.org/docs/symbols/puredom.RouteManager.html) and [ViewManager](http://puredom.org/docs/symbols/puredom.RouteManager.html).
